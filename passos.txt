@@ -1,0 +1,24 @@
+configurar o Git Local:
+git config --global user.name AninhaMel
+git config --global user.email ana.silva5134@etec.sp.gov.br
+
+documentação oficial do Expo:
+docs.expo.dev
+
+Criar um projeto com o React Native Expo
+1. Node.js
+2.Git
+3. Emulador Android (Android Studio)
+
+Criar um Projeto:
+npx create-expo-app StickerSmash
+
+cd StickerSmash
+
+npx expo install react-dom react-native-web @expo/webpack-config
+
+executar o projeto no navegador:
+npx expo start
+
+executar o projeto no celular
+npx expo start --localhost --android
