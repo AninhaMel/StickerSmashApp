@@ -22,3 +22,7 @@ npx expo start
 
 executar o projeto no celular
 npx expo start --localhost --android
+
+
+Para instalar o image picker
+npx expo install expo-image-picker
